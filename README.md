@@ -32,8 +32,6 @@ while True:
     print('Done sending')
     conn.send('Thank you for connecting'.encode())
     conn.close()
-```
-```
 CLIENT
 
 import socket
